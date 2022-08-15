@@ -25,4 +25,4 @@
 * key 'A' is not always captured
 
 Example fetching data from mongoDB:
-(assets/mongodb_print.png)
+![IMG](./assets/mongodb_print.png "mongoDB")
