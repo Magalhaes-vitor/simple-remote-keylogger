@@ -1,4 +1,6 @@
 # Simple Remote Keylogger
+## for macOS
+
 ## tools: mongoDB, requests, flask
 
 * serverApi: will establish the connection to persist data to mongoDB
