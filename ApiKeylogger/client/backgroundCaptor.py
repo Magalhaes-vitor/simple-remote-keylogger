@@ -6,7 +6,7 @@ import uuid
 import clientApi
 from threading import Thread
 
-KEYSTROKES_BATCH_SIZE = 12000  # us daily median
+KEYSTROKES_BATCH_SIZE = 12000  # us daily avg
 HOST = "localhost"
 PORT = 8080
 
